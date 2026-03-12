@@ -40,6 +40,7 @@
 
 ```bash
 git clone https://github.com/【あなたのユーザー名】/【リポジトリ名】.git
+```
 
 ### 2. Chrome の拡張機能管理ページを開く
 Google Chrome を開き、URL バーに以下を入力して Enter キーを押します。
