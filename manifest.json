@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "高専Webシラバスフィルタ",
+    "version": "1.0.0",
+    "description": "高専Webシラバスをより見やすく。",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://syllabus.kosen-k.go.jp/*"
+        ],
+        "js": [
+          "content.js"
+        ],
+        "run_at": "document_idle"
+      }
+    ]
+  }
